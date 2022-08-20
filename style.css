@@ -1,0 +1,63 @@
+html {
+  font-size: 10px ;
+}
+
+body {
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  width: 50%;
+  align-items: center;
+  border: 3px solid blue;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem ;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+label,
+li {
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+
+button {
+  margin: 0.8rem
+}
+
+.button:hover {
+  background-color: aquamarine;
+}
+
+#number {
+  width: 100%;
+  text-align: center;
+}
+
+#result {
+ text-align: center;
+  width: 100%;
+}
